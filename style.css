@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Ruda&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Quattrocento";
+}
+body{
+    background-color: black;
+}
+h3{
+    font-family: "Ruda";
+}
+li, a{
+    
+    text-align: center;
+    font-family: "Ruda";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;  
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 111px;
+
+}
+p{
+    font-family: "Ruda"; 
+}
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    margin:25px 15px;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: 0px; /* 0% */
+letter-spacing: 1.74px;
+}
+.social_m a{
+    margin: 10px;
+}
+.section_one{
+    background-image: url("./img/bg.png");
+    height: 1017px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    flex-shrink: 0;
+
+}
+.nav_link li {
+    display: inline-block;  
+    margin-left: 30px; 
+}
+
+.section_content h1{
+    margin-left: 17px;
+    padding-top: 129px;
+    padding-left: 98px;
+    padding-right:98px ;
+    margin-bottom: 78px;
+    font-size: 101px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.5px;
+    display: flex;
+    flex: 1;
+    letter-spacing: 9.09px;
+}
+.section_content hr {
+    width: 586px;
+    height: 13px;
+    background-color: #F24C4C;
+    margin-left: 98px;
+    margin-bottom: 78px;
+    border: 0;
+}
+.section_content p {
+    margin-left: 98px;
+    margin-bottom: 179px;
+    padding-bottom: 100px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 160% */
+    letter-spacing: 2.25px;
+}
+#About .about_img{
+    float: right;
+}
+.about h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Quattrocento";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+.about .about_hr{
+    display: flex;
+    justify-content: center;
+    width: 526px;
+    height: 10px;
+    background-color: #F24C4C;
+    margin-left: 459px;
+    margin-top: 10px;
+    border: 0; 
+}
+.about .about_hr2{
+    display: flex;
+    justify-content: center;
+    width: 526px;
+    height: 4px;
+    background-color: #F24C4C;
+    margin-left: 80px;
+    margin-top: 50px;
+    border: 0; }
+.about_info p{
+    top: 20px;
+    margin-left: 80px;
+    font-family: Ruda;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 160% */
+letter-spacing: 2.25px;
+}
+#Menu h2{
+    text-align: center;
+font-family: "Quattrocento";
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+margin-top:300px;
+}
+#Menu hr{
+    margin-left: 500px;
+    margin-bottom: 30px;
+    width: 474px;
+    height: 9px;
+    background-color: #F24C4C;
+    border: 0;
+}
+#Menu p{
+    margin: 5px 180px;
+    font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 160% */
+letter-spacing: 2.25px;
+    text-align: justify;
+}
+footer{
+    
+    display: flex;
+    
+}
+.footer div li{
+    margin: 100px;
+    list-style: none;
+    
+}
